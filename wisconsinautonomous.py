@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-img = cv2.imread('/Users/pranavpullabhotla/wa/red.png')
+img = cv2.imread('red.png')
 
 # Apply Gaussian blur to remove noise
 blurred = cv2.GaussianBlur(img, (11, 11), 0)
